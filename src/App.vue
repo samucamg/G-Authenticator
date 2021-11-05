@@ -1,12 +1,12 @@
 <template>
   <b-container>
-    <h1>OAuth 2.0 Client Shell</h1>
-    <p>Get the <code>authorization_code</code>, <code>access_token</code> and <code>refresh_token</code> for any registered OAuth 2.0 client!</p>
-    <p>This web application stores non-secrets in local storage and secrets in session storage.</p>
+    <h1>Google Authenticator</h1>
+    <p>Pegue o <code>authorization_code</code>, <code>access_token</code> e <code>refresh_token</code> para utilizar no google em qualquer cliente que tutilize OAuth 2.0!</p>
+    <p>Esta é uma simples aplicação para obter um Token Refresh do Google Drive para utilizar em vários tipos de aplicação.</p>
     <hr />
 
     <b-form>
-      <h2>Workflow</h2>
+      <h2>Fluxo de Trabalho </h2>
       <b-row>
         <b-col>
           <b-form-group>
@@ -22,7 +22,7 @@
         </b-col>
       </b-row>
 
-      <h2>Request Details</h2>
+      <h2>Pedir detalhes</h2>
       <b-row>
         <b-col lg="6">
           <b-form-group
@@ -167,7 +167,7 @@
             variant="primary"
             @click="getAuthCode"
           >
-            Get Authorization Code
+            Obter código de autorização
           </b-button>
         </b-col>
       </b-row>
@@ -270,7 +270,7 @@
     </b-form>
     <hr />
     <footer class="text-center">
-      <i>Source code is available on <a href="https://github.com/neverendingqs/oauth2-client-shell-v2" target="_blank" rel="noopener noreferrer">GitHub</a>.</i>
+      <i>Para utilizar em algumas aplicações que constam nos tutoriais canal do youtube de  <a href="https://www.youtube.com/c/SamucaTutoriais" target="_blank">SamucaTutoriais</a>.</i>
     </footer>
   </b-container>
 </template>
